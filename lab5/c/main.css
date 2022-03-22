@@ -1,0 +1,59 @@
+body {
+
+    background-color: gray;
+    background-size: contain;
+    background-image: url("../i/1.jpg");
+    background-size: cover;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.controls {
+    background-color: black;
+    border: none;
+    width: 640px;
+    margin-top: 0%;
+}
+
+fieldset {
+    border: none;
+}
+
+#info {
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+
+.myframe2 {
+    background-image: url("../i/2.jpg");
+    background-size: cover;
+    margin-top: 2rem;
+    width: 630px;
+    height: 405px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 2% 15% 15% 15%;
+    position: absolute;
+}
+
+.myframe3 {
+    background-image: url("../i/3.jpg");
+    background-size: cover;
+    margin-top: 2rem;
+    width: 630px;
+    height: 405px;
+    text-align: center;
+    color: black;
+    font-size: large;
+    padding: 2% 15% 15% 15%;
+    position: absolute;
+}
+
+.hide {
+    opacity: 0%;
+}

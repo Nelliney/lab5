@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Player API</title>
+    <link rel="stylesheet" href="c/main.css">
+    <script src="j/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <!-- 1. controls -->
+    <div id="controls" class="controls">
+        <form id="video_form">
+            <fieldset>
+                <input type="button" onclick="playVideo()" value="Play" />
+                <input type="button" onclick="pauseVideo()" value="Pause" />
+                <input type=button onclick="playRate()" value="fast forward" />
+                <input type=button onclick="slow_motion()" value="slo mo" />
+                <input type="button" onclick="go()" value="go to geyser" />
+            </fieldset>
+        </form>
+    </div>
+    <article id="info">
+    </article>
+
+</body>
+
+</html>
